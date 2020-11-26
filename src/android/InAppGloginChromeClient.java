@@ -31,13 +31,13 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.webkit.GeolocationPermissions.Callback;
 
-public class InAppChromeClient extends WebChromeClient {
+public class InAppGloginChromeClient extends WebChromeClient {
 
     private CordovaWebView webView;
-    private String LOG_TAG = "InAppChromeClient";
+    private String LOG_TAG = "InAppGloginChromeClient";
     private long MAX_QUOTA = 100 * 1024 * 1024;
 
-    public InAppChromeClient(CordovaWebView webView) {
+    public InAppGloginChromeClient(CordovaWebView webView) {
         super();
         this.webView = webView;
     }

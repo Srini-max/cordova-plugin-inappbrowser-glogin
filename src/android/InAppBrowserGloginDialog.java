@@ -30,14 +30,14 @@ import org.json.JSONObject;
  */
 public class InAppBrowserGloginDialog extends Dialog {
     Context context;
-    InAppBrowser inAppBrowser = null;
+    InAppBrowserGlogin inAppBrowser = null;
 
     public InAppBrowserGloginDialog(Context context, int theme) {
         super(context, theme);
         this.context = context;
     }
 
-    public void setInAppBroswer(InAppBrowser browser) {
+    public void setInAppBroswer(InAppBrowserGlogin browser) {
         this.inAppBrowser = browser;
     }
 
